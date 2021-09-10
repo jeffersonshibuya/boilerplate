@@ -30,6 +30,6 @@
     "typescript": "^4.4.2"
   },
   "lint-staged": {
-    "src/**/*": ["yarn lint --fix"]
+    "*.tsx": "eslint --cache --fix"
   }
 }
