@@ -35,7 +35,8 @@
       "react-hooks/exhaustive-deps": "warn",
       "react/prop-types": "off",
       "react/react-in-jsx-scope": "off", //diabled force import React in all jsx files
-      "@typescript-eslint/explicit-module-boundary-types": "off" // disable force return type in all functions
+      "@typescript-eslint/explicit-module-boundary-types": "off", // disable force return type in all functions
+      "react/display-name": "off"
 
     }
 }
