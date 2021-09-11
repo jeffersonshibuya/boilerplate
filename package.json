@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "next": "11.1.2",
+    "next-pwa": "^5.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.1"
@@ -48,7 +49,7 @@
     "typescript": "^4.4.2"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "src/**/*.{ts,tsx}": [
       "yarn lint --fix",
       "yarn test --findRelatedTests --bail"
     ]

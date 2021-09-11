@@ -1,25 +1,26 @@
 {
-  "short_name": "RA Boilerplate CRA",
-  "name": "React Avançado CRA Boilerplate",
+  "short_name": "RA Boilerplate - Boilerplate",
+  "name": "React Avançado Avançado",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/img/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/img/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
+  "start_url": "/",
+  "display": "fullscreen",
   "theme_color": "#06092B",
-  "background_color": "#06092B"
+  "background_color": "#06092B",
+  "description": "Boilerplate with Typescript, NextJS, Styled Components, ESLint, Prettier, Jest and Storybook"
 }
